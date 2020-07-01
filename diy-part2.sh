@@ -9,7 +9,10 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.3.7/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.3.5/g' package/base-files/files/bin/config_generate
+#FOR TP
+#sed -i 's/192.168.1.1/192.168.3.7/g' package/base-files/files/bin/config_generate
+#FOR N1
 git clone https://github.com/tuanqing/install-program package/install-program
 #git clone https://github.com/beenbin/passwall652.git package/luci-app-passwall
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
